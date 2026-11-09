@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "paypanel",
+  "version": "${version}",
+  "name": "PayPanel",
+  "description": "Client-side popup with buttons to pay back 2x / 1x and check a player's stats and balance. Acts only when you click.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.paypanel.PayPanelClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
